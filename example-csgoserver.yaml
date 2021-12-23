@@ -1,0 +1,7 @@
+apiVersion: csgooperator.shootingrange.github.com/v1alpha1
+kind: CSGOServer
+metadata:
+  name: example-server
+spec:
+  deploymentName: bar
+  replicas: 1
